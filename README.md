@@ -1,20 +1,68 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# React-Vite-Custom-Boilerplate
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This project is built using React with Vite, TypeScript, React Hook Form, Redux Toolkit, and Axios for API calls.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Getting Started
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+To get a local copy up and running, follow these simple steps.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+### Prerequisites
+
+- Ensure you have [Node.js](https://nodejs.org/en/) installed.
+- Ensure you have 16.X.X + version for node
+
+### Installation
+
+1. Clone the repo:
+   ```sh
+   git clone https://github.com/Rugved1652/react-vite-custom-boiler-plate.git
+   ```
+2. Install NPM packages:
+   ```sh
+   npm install
+   ```
+
+## Usage
+
+This project is set up to use:
+
+- **React with Vite**: For fast and efficient front-end development.
+- **TypeScript**: For type-safe code.
+- **React Hook Form**: For managing forms with ease.
+- **Redux Toolkit**: For state management.
+- **Axios**: For making API calls.
+
+Start the development server:
+
+```sh
+npm run dev
+```
+
+## Branch Stratagy
+
+Create-Branch as per Feature need from `dev` branch, do not code directly in `main` or, `staagging` branch\*\*.
+
+- `main` branch: Production Branch
+- `stagging` branch: QA Environment Branch
+- `dev` branch: Review branch
+
+name spacing for create new branch
+
+- `bugs/ticketnumber`
+- `feature/ticketname`
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Your Name - rugved@tuvoc.com
+
+Project Link: [https://github.com/Rugved1652/react-vite-custom-boiler-plate.gite](https://github.com/Rugved1652/react-vite-custom-boiler-plate.git)
